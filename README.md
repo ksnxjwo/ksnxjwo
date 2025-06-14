@@ -13,11 +13,11 @@
 - 연락처
 
   추가한 기능:
-  - navbar
+  navbar  
     - 헤더 상단에 navbar 추가, 소개 기술스택 프로젝트 희망직무 연락처 란을 클릭하면 그 섹션으로 이동
     - html파일: 21줄 css파일: 48줄
-    - <nav class="navbar"> navbar 클래스를 가진 nav를 만듬 <ul>: 순서 없는 목록 <li>: 리스트 항목 <a href="#id"> id 클래스를 가진 섹션으로 이동
-  - fade in
+    - <nav class="navbar"> navbar 클래스를 가진 nav를 만듬 <ul>: 순서 없는 목록 <li>: 리스트 항목 <a href="#id"> id 클래스를 가진 섹션으로 이동  
+  fade in  
     - 웹사이트 입장시 헤더, 소개, 기술스택 파트가 서서히 올라옴
     - html파일: 각 파트 css파일: 5줄 js파일: 2줄
     - 각 파트에 fade-in 클래스 부여, 
@@ -40,7 +40,7 @@
         });  
       }, { threshold: 0.1 });  
       faders.forEach(fade => observer.observe(fade)); // faders 목록을 순회하며 각 요소를 observer가 감시하도록 설정  
-  - 새로고침 시 맨 위로 강제이동
+  새로고침 시 맨 위로 강제이동  
     -새로고침 시 맨 위로 강제이동
     -js파일: 13줄
     -  
