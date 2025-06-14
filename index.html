@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <header>
+  <header class="fade-in">
     <h1>My Portfolio</h1>
     <div case="header-text">
       <p>프로그래밍 학습과 프로젝트 기록</p>
@@ -17,12 +17,24 @@
     </div>
   </header>
 
-  <section>
+
+  <nav class="navbar">
+    <ul>
+     <li><a href="#intro">소개</a></li>
+     <li><a href="#skills">기술 스택</a></li>
+     <li><a href="#projects">프로젝트</a></li>
+     <li><a href="#job">희망 직무</a></li>
+     <li><a href="#contact">연락처</a></li>
+   </ul>
+  </nav>
+
+
+  <section id="intro" class="fade-in">
     <h2>소개</h2>
     <p>안녕하세요! 개발 공부를 꾸준히 이어가고 있는 지망생입니다. 저의 기술 스택과 프로젝트를 기록하는 공간입니다.</p>
   </section>
 
-  <section>
+  <section id="skills" class="fade-in">
     <h2>기술 스택</h2>
     <ul>
       <div class="image-row">
@@ -38,7 +50,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="projects">
     <h2>프로젝트</h2>
 
     <div class="project">
@@ -67,12 +79,12 @@
     </div>
   </section>
 
-  <section>
+  <section id="job">
     <h2>희망 직무</h2>
     <p>앱 개발자, 웹 퍼블리셔</p>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>연락처</h2>
     <p>이메일: k35933336@gmail.com</p>
     <p>GitHub: <a href="https://github.com/ksnxjwo" target="_blank">ksnxjwo</a></p>
@@ -83,4 +95,5 @@
   </footer>
 
 </body>
+<script src="script.js" defer></script>
 </html>
